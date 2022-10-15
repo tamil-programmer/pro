@@ -1,0 +1,109 @@
+
+#aboutme{
+    animation: navi 3s  1  ease;
+
+}
+@keyframes navi {
+    0%   {
+
+       transform:translateZ(100px);
+position: relative;
+       opacity: 0;
+
+    }
+   
+   75%{
+    transform: translateZ(10px);
+    opacity: 0.8;
+    position: relative;
+
+   } 
+ 
+    90%{
+        transform: translateZ(0px);
+        position: relative;
+
+    }
+  }
+::-webkit-scrollbar {
+    display: none;
+}
+/* #particles-js{
+    z-index: -2;
+    position: relative;
+} */
+
+#particles-js{
+    width: 100%;
+    display: flex;
+    position: relative;
+    height: 600px;
+    
+    z-index: 900;
+ }
+
+
+ #nav{
+    animation: nav 3s  1  ease;
+    display: flex;
+    width: 100%;
+    /* margin: auto 15px; */
+    
+}
+
+@keyframes nav {
+    0%   {
+
+       transform: translateY(-100px);
+       opacity: 0;
+    }
+   
+   75%{
+    transform: translateY(10px);
+    opacity: 0.8;
+   } 
+ 
+    90%{
+        transform: translateY(0px);
+      
+    }
+  }
+  #home_left{
+    margin-top: 150px;
+    animation: navi 3s  1  ease;
+
+    /* position: relative; */
+
+}
+
+
+.bar_ani{
+    animation: bar-come 1s    ease-in-out;
+    display:block;
+}
+.bar_go{
+    animation: bar-go 1s    ease-in-out;
+    
+}
+
+
+@keyframes bar-come {
+    0%{
+        transform: translate(-240px);
+        display: block;
+    }
+    100%{
+        transform: translate(0px);
+display: block;
+    }
+}
+@keyframes bar-go {
+    0%{
+        transform: translate(0px);
+        display: block;
+    }
+    100%{
+        transform: translate(-240px);
+display: block;
+    }
+} 

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Surya </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resp.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="ani.css">
+    <script src="https://kit.fontawesome.com/b746bbea69.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+<body onload="start()">
+  <div id="loader" ">
+    <!-- <img src="loader.gif"   alt=""> -->
+  </div>
+  <div id="root">
+
+
+
+    <div id="bar" >
+      <div #bar1>
+  
+<img id="imgspan" src="ban.png"  alt="logo">
+
+<span onclick="bargo()" id="close">
+  <img src="x.png" alt="">
+</span>
+      </div>
+      <div id="bar2">
+        <ul>
+          <hr style="margin: 5px ;">
+          <a href=""><li class="bar_list"><button type="button" class="btn btn-primary position-relative">
+            Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              <?php echo "9" ?>
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button></li></a>
+          <a href=""><li class="bar_list">HOme</li></a>
+          <a href=""><li class="bar_list">HOme</li></a>
+          <a href=""><li class="bar_list">HOme</li></a>
+       
+        </ul>
+      </div>
+
+
+
+<div id="bar3">
+  <ul>
+    <hr style="margin: 5px ;">
+    <a href=""><li class="bar_list">HOme</li></a>
+    <a href=""><li class="bar_list">HOme</li></a>
+    <a href=""><li class="bar_list">HOme</li></a>
+    <a href=""><li class="bar_list">HOme</li></a>
+  </ul>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+    <nav id="nav">
+      <div  id="bur">
+        <span onclick="getbar()" class="material-symbols-outlined">
+          menu
+        </span>
+      </div>
+      <div id="name" class="nav-bar">
+        <h1>Surya</h1>
+      </div>
+      <div id="navlist" class="nav-bar">
+        <ul>
+          <a href="" class="nav-a">
+            <li class="nav-list">Home</li>
+          </a>
+          <a href="#about" class="nav-a">
+            <li class="nav-list">About</li>
+          </a>
+          <a href="" class="nav-a">
+            <li class="nav-list">Experience</li>
+          </a>
+          <a href="" class="nav-a">
+            <li class="nav-list">Projects</li>
+          </a>
+          <a href="" class="nav-a">
+            <li class="nav-list"><button type="button" class="btn btn-primary position-relative">
+              Inbox
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                <?php echo "7" ?>
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </button>
+            </li>
+          </a>
+        </ul>
+      </div>
+      <div id="contactme"><a href="#contact"><button class="btn1">Contact</button></a> <a href="#admin"> <button class="btn1">Admin</button></a></div>
+    </nav>
+    
+
+
+      <div id="particles-js">
+
+
+<div id="home" >
+        <div   id="home_left">
+          <h1 class="heads">Hi</h1>
+          <h1 class="heads">I'm Surya</h1>
+          <div id="typed2"></div>
+         
+          <p>I'm a tech enthusiast who always looks into new tech stacks. A single word to represent me is adaptability.
+            Loves to learn new technology to work on a project.</p><br>
+            <section  id="social-media" style="display:flex ; text-align: left; width: 40%;">
+              <a href="https://github.com/tamil-programmer/"><div><img src="icons8-github-48.png" alt=""></div></a>
+              <a href="https://github.com/tamil-programmer/"><div><img src="icons8-instagram-48.png" alt=""></div></a>
+              <a href="https://github.com/tamil-programmer/"><div><img src="icons8-linkedin-48.png" alt=""></div></a>
+              <a href="https://www.youtube.com/channel/UC4s47EfUkWWRg9cNc1dyWMw/featured"><div><img src="icons8-youtube-48.png" alt=""></div></a>
+            </section>
+            <br>
+          <button class="hireme">Hire Me</button>
+          <br>
+          <br>
+  
+        </div>
+
+
+        <div data-aos="zoom-in"      id="home_right">
+            <div id="right_1">
+              <!-- <img style="position:relative;" src="ui.png" alt=""> -->
+              <img src="ban.png" style="position: relative;" alt=""><br>
+              
+             
+            </div>
+            
+        </div>
+
+
+
+
+
+      </div>
+      </div>
+  
+
+
+
+<div data-aos="zoom-in"     data-aos-delay="60" id="about-me">
+
+  <div id="about">
+    <h2 style="font-size:35px ;">
+      <img src="aboutme.png" alt="">
+      <Strong>About <span style="color: #8a2be2;">Me</span></Strong>
+    </h2>
+    <p style="text-align: justify;">I am a Full-Stack developer based in Pune, India. I am an Information Technology undergraduate from SPPU. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites using MERN Stack. Working for myself to improve my skills. Love to build Full-Stack clones.
+    </p>
+      <p data-aos="slide-right" >  <strong> Age: 19</strong></p>
+      
+      <p data-aos="slide-right" >  <strong> Phone : 8104608876</strong></p>
+      
+      <p data-aos="slide-right" >  <strong> Email : suryasundarkalidas@gmail.com</strong></p>
+      
+      <p data-aos="slide-right" >  <strong> Place : Mumbai, India - 400060</strong></p>
+  </div>
+
+  <div data-aos="fade-down"  id="aboutcard">
+    <img id="work_img" src="we.png" alt="d">
+  </div>
+
+
+  
+</div>
+
+
+
+<div id="education" class="cen" >
+
+
+
+
+
+
+  <h1 class="heading"  data-aos="zoom-in-up"><img src="graduation-cap-solid.svg" style="width: 60px;" alt=""> My <span class="zero">Education</span></h1>
+  <p class="qoute" data-aos="fade-up">Education is not the learning of facts, but the training of the mind to think.</p>
+
+
+
+
+
+  <div class="box-container">
+
+    
+    <div class="edu-div flx" data-aos="fade-right">
+        <div  data-aos="zoom-out-left" class="image image1">
+        <!-- <img draggable="false" src="hf.jpg"> -->
+        </div>
+        <div class="content">
+        <h3>Secondary School Certificate</h3>
+        <p>Holy Family High School | HFHS</p>
+        <h4>2020-2024 | <span class="done"> Completed </span></h4>
+        </div>
+    </div>
+
+    <div class="edu-div flx" data-aos="fade-left">
+
+      <div  data-aos="zoom-out-left" class="image image2" >
+      <!-- <img draggable="false" src="vv.jpg" alt="d"> -->
+      </div>
+      <div class="content">
+      <h3> Higher Secondary School Certificate</h3>
+      <p>Vivek Vidyalaya | VV(VES)</p>
+      <h4>2020-2024  | <span class="done"> Completed </span></h4>
+      </div>
+  </div>
+
+
+  <div class="edu-div flx" data-aos="fade-right">
+
+    <div data-aos="zoom-out-left" class="image image3">
+    <!-- <img draggable="false" src="vv.jpg" alt="d"> -->
+    </div>
+    <div class="content">
+    <h3>Bachelor of Science in Information Technology</h3>
+    <p>Cosmopolitan's Valia College | CVC</p>
+    <h4>2020-2024 |<span style="color: darkorange;">  Pursuing</span></h4>
+    </div>
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div id="contact">
+        <h2  data-aos="fade-right" class="heading"> <img src="contact.png" id="touch" style="width:8% ;" alt=""><i class="fas fa-headset"></i> Get in <span class="dif" style="color: #0e6efd;">Touch</span></h2>
+
+<div id="child-contact">
+
+<div>
+  <img data-aos="fade-in" id="fill" src="q.png" alt="">
+</div>
+<div>
+<form id="formm" action="commit.php"  method="post">
+  <label  data-aos="fade-down" for="name">NAME</label><br>
+  <input  data-aos="fade-down" type="text"><br>
+  <label  data-aos="fade-down" for="name">E-MAIL</label><br>
+  <input  data-aos="fade-down" type="email"><br><br>
+  <input  data-aos="fade-down" type="number"><br>
+  <label  data-aos="fade-down" for="name">COMMENT</label><br>
+  <input  data-aos="fade-down" type="text"><br><br>
+  <button class="btn1" type="submit" onsubmit="commit()">COMMIT</button>
+</form>
+</div>
+
+</div>
+
+
+
+<footer>
+  <section class="footer">
+
+    <div class="box-container-foot">
+  
+        <div class="box">
+            <h3>Surya's <span class="zero"> Portfolio</span></h3>
+            <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br> <br> Keep Rising 🚀. Connect with me over live chat!</p>
+        </div>
+  
+       <div class="box">
+    <h3>quick <span class="zero">links</span></h3>
+    <a href="#home"                    ><i class="fa-solid zero fa-chevron-right"></i> home</a>
+    <a href="#about"                   ><i class="fa-solid zero fa-chevron-right"></i> about</a>
+    <a href="#skills"                  ><i class="fa-solid zero fa-chevron-right"></i> skills</a>
+    <a href="#education"               ><i class="fa-solid zero fa-chevron-right"></i> education</a>
+    <a href="#work"                    ><i class="fa-solid zero fa-chevron-right"></i> work</a>
+    <a href="#experience"              ><i class="fa-solid zero fa-chevron-right"></i> experience</a>
+</div>
+
+        <div class="box">
+            <h3>contact <span class="zero">info</span></h3>
+            <p> <i class="fas zero fa-phone"></i>  +91 810-460-8876</p>
+            <p> <i class="fas zero fa-envelope"></i>  suryasundarkalidas@gmail.com</p>
+            <p> <i class="fas zero fa-map-marked-alt"></i>  Mumbai, India-400060</p>
+            <div class="share">
+  
+                <a href="https://www.linkedin.com/in/jigar-sable"          aria-label="LinkedIn" target="_blank"> <i <i class="zero fa-brands fa-github"></i>         </a>
+                <a href="https://github.com/jigar-sable"          aria-label="GitHub" target="_blank">    <i class="zero fa-brands fa-discord"></i>       </a>
+                <a href="mailto:jigarsable21@gmail.com"           aria-label="Mail" target="_blank">      <i class="zero fa-brands fa-linkedin"></i>       </a>
+                <a href="https://twitter.com/jigar_sable"         aria-label="Twitter" target="_blank">     <i class="zero fa-brands fa-telegram"></i>      </a>
+                <a href="https://t.me/lifecode5"                  aria-label="Telegram" target="_blank">   <i class="zero fa-brands fa-twitter"></i>        </a>
+            </div>
+        </div>
+    </div>
+  <p style="color: #ffffff; text-align: center;"> copyright &#169; 2022 surya ®</p>
+    <h1 class="credit">Designed <i class="fa zero fa-heart pulse"></i> by <a href="https://github.com/tamil-programmer/"> Surya</a></h1>
+  
+  </section>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11">
+</script>
+<!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+<script src="new.js"></script>
+<script src="https://kit.fontawesome.com/b746bbea69.js" crossorigin="anonymous"></script>
+  <script>
+  
+  
+
+
+    AOS.init({
+      delay: 100, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease'
+    });
+  </script>
+
+  <!-- <canvas  id="myChart" style="width:40%;max-width:300px"></canvas> -->
+  <script src="particles.js"></script>
+  <script src="app.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js" integrity="sha512-zKaK6G2LZC5YZTX0vKmD7xOwd1zrEEMal4zlTf5Ved/A1RrnW+qt8pWDfo7oz+xeChECS/P9dv6EDwwPwelFfQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>var typed3 = new Typed('#typed2', {
+  strings: ['I am A  <strong>Developer</strong>', 'I am A  <strong>Youtuber</strong>',
+  'I am A  <strong>ANDROID Developer</strong>', 'I am A <strong>Music Producer</strong>',
+  'I am A  <strong>Software Developer</strong> ','I am A  <strong>Developer</strong>', 'I am A  <strong>Youtuber</strong>',
+  'I am A  <strong>ANDROID Developer</strong>', 'I am A <strong>Music Producer</strong>',
+  'I am A  <strong>Software Developer</strong> ' ],
+  typeSpeed: 30,
+  backSpeed: 15,
+  backDelay: 1000,
+  startDelay: 100,
+  showCursor: false,
+  smartBackspace: true, // this is a default
+  loop: true
+
+  
+});</script>
+</html>
