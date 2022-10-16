@@ -217,7 +217,7 @@ color: #8a2be2;
 
 }
 #home_right{
-    margin-top: 150px;
+    margin-top: 100px;
     /* animation: homeleft 2s  0.5s 1 linear ease-in-out; */
 align-items: center;
 }
@@ -254,8 +254,8 @@ align-items: center;
     align-items: center;
 }
 #right_1 img{
-    height:70%;
-    width: 70%;
+    height:90%;
+    width: 90%;
 }
 
 #typed2{
